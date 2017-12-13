@@ -1,0 +1,29 @@
+.FilterBlock {
+    padding: 3px;
+    border-radius: 3px;
+    border: 2px solid #cecece;
+    min-height: 33px;
+}
+.FilterAddButton {
+    display: inline-block;
+    padding: 7px 11px;
+    border: 2px solid #2e6da4;
+    border-radius: 3px;
+    color: #FFF;
+    background-color: #337ab7;
+    font-size: 13px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.FilterAddButton:hover {
+    background-color: #0958bb;
+}
+.TimelineFilter, .CategoryFilter {
+    border: 2px solid #2e6da4;
+    border-radius: 3px;
+    padding: 6px 11px;
+    margin: 0 5px;
+	float: right;
+}
+
+

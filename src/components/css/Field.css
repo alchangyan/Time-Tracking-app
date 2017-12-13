@@ -1,0 +1,55 @@
+.Field > * {
+	font-size: 13px;
+}
+.Field {
+	border: 1px solid #2e6da4;
+	padding: 5px;
+	margin: 5px;
+}
+
+/*.EditMode .TextareaForEdit{
+	display: block;
+}
+.EditMode .SaveBtn {
+	display: inline-block;
+}
+.EditMode .TextPart {
+	display: none;
+}*/
+
+.TrackingPart {
+	float: right;
+}
+.CategoryPart {
+	margin: 7px 0;
+}
+.TextareaForEdit {
+	display: none;
+	resize: none;
+	width: calc(100% - 5px);
+	height: 56px;
+	font-size: 12px;
+}
+.SaveBtn {
+	display: none;
+    padding: 7px 20px;
+    border: 2px solid #498439;
+    border-radius: 3px;
+    color: #FFF;
+    background-color: #5aac44;
+    font-size: 13px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.SaveBtn:hover {
+    background-color: #498439;
+}
+.TextPart {
+	border: 1px solid darkgrey;
+	padding: 3px;
+	font-size: 12px;
+	height: 56px;
+	cursor: pointer;
+}

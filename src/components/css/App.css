@@ -1,0 +1,9 @@
+.AppBlock {
+	width: 80%;
+    margin: 20px auto 0;
+    border: 1px solid #BBB;
+    border-radius: 3px;
+    /*height: calc( 100vh - 40px );*/
+    padding: 5px;
+    background-color: #FFF
+}
